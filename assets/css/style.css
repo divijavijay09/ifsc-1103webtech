@@ -31,8 +31,12 @@ nav.primary ul{
 }
 
 nav.primary ul li{
-  list-style-type:circle;
+  list-style-type:"☆";
   flex:1;
+  content: "☆"; 
+  color: #406168;
+  margin-right: 10px;
+  font-size: 0.9rem;
   
 }
 
@@ -56,9 +60,3 @@ nav.primary ul li ul{
   list-style: none;
 }
 
-ul li:before {
-  content: "☆"; 
-  color: #85BCC7;
-  margin-right: 10px;
-  font-size: 0.9rem;
-}
