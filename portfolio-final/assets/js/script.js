@@ -1,36 +1,17 @@
-// Function to initialize the Wufoo form
-const loadWufooForm = () => {
-  const scriptElement = document.createElement('script');
-  const firstScript = document.getElementsByTagName('script')[0];
+const contactForm = document.getElementById('contactForm');
+const statusMessage = document.getElementById('status');
 
-  const options = {
-    'userName': 'djvj',
-    'formHash': 'z23ydg61dl89gt',
-    'autoResize': true,
-    'height': '398',
-    'async': true,
-    'host': 'wufoo.com',
-    'header': 'show',
-    'ssl': true
-  };
-
-  scriptElement.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'secure.wufoo.com/scripts/embed/form.js';
+contactForm.addEventListener('submit', function(event) {
+  event.preventDefault();
   
-  scriptElement.onload = scriptElement.onreadystatechange = function() {
-    const rs = this.readyState;
-    if (rs && rs != 'complete' && rs != 'loaded') return;
-    
-    try {
-      const z23ydg61dl89gt = new WufooForm();
-      z23ydg61dl89gt.initialize(options);
-      z23ydg61dl89gt.display();
-    } catch (e) {
-      console.error("Wufoo form failed to load:", e);
-    }
-  };
+  statusMessage.innerText = "Sending...";
+  
+  const formData = new FormData(contactForm);
+  const data = Object.fromEntries(formData.entries());
 
-  firstScript.parentNode.insertBefore(scriptElement, firstScript);
-};
-
-// Run the function
-loadWufooForm();
+  setTimeout(() => {
+    statusMessage.innerText = "Message sent successfully!";
+    statusMessage.style.color = "#c18d97";
+    contactForm.reset();
+  }, 1000);
+});

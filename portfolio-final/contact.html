@@ -48,13 +48,25 @@
             </p>
         </section>
 
-        <!-- The container where the form will appear -->
-        <div id="wufoo-z23ydg61dl89gt">
-        Fill out my <a href="https://djvj.wufoo.com/forms/z23ydg61dl89gt">online form</a>.
-        </div>
+        
 
-        <!-- Load your JavaScript file -->
-        <script src="assets/js/script.js"></script>
+       <form id="contactForm">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required placeholder="Jane">
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required placeholder="Doe">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="email@example.com">
+
+            <label for="message">Message</label>
+            <input type="text" id="message" name="message" required placeholder="Enter brief message">
+
+            <button type="submit">Send</button>
+            
+            <p id="status"></p>
+        </form>
 
         <section id="contact-methods">
             <div class="contact-card">
