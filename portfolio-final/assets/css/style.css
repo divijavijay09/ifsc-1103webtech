@@ -184,3 +184,7 @@ div.content {
   color: #dcb3b9;
   opacity: 1;
 }
+
+div.contact-card a{
+  color: #87506E;
+}
