@@ -26,7 +26,7 @@ header.primary {
 }
 
 nav.primary ul{
-  display:block;
+  /* display:block; */
   justify-content:space-around;
   gap:30px;
   margin-right: 5px;
