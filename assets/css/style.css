@@ -21,30 +21,30 @@ header.primary {
 
 nav.primary {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
   margin: 20px 0;
 }
 nav.primary ul{
-  list-style-type: "☆";
-  padding: 0;
+  padding-left: 25px;   
   margin: 0;
-  text-align: left; 
-  list-style-position: outside; 
+  text-align: left;     
+  width: min-content;   
 }
 
 nav.primary ul li{
+  list-style-type: "☆";
   color: #406168;
   margin-bottom: 10px;
-  padding-left: 20px;
 }
 
 nav.primary ul li a{
   background-color: #dde6e7;
   padding: 5px 15px;
+  display: inline-block; 
   text-decoration: none;
   color: #406168;
   transition: .5s;
-  display: inline-block;  
 }
 
 nav.primary ul li a:hover{
@@ -52,10 +52,9 @@ nav.primary ul li a:hover{
 }
 
 nav.primary ul li ul{
-  text-indent: 0; 
-  list-style: none;
   padding-left: 30px; 
   margin-top: 10px;
+  width: auto;
 }
 
 nav.primary ul li ul li {
@@ -72,5 +71,5 @@ div.writing {
   margin: 40px auto;  
   padding: 40px;      
   border: 1px solid #406168;
-  box-shadow: 10px 20px #2a3a3d;
+  box-shadow: 0 10px 20px #2a3a3d;
 }
