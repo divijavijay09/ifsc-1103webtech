@@ -7,12 +7,10 @@ body {
   font-family: "Delius", sans-serif;
   margin:0;
   background-color: #F4FDFF;
+  padding: 50px 200px;
 
 }
 
-main {
-  padding: 10px 200px;
-}
 
 header.primary {
   text-align: center;
@@ -62,6 +60,12 @@ nav.primary ul li a:hover{
 nav.primary ul li ul{
   text-indent:2%;
   list-style: none;
+}
+
+nav a{
+  text-decoration: none;
+  color:#406168;
+
 }
 
 
