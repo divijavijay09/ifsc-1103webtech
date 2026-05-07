@@ -26,9 +26,9 @@ header.primary {
 }
 
 nav.primary ul{
-  /* display:block; */
+  /* display:block;
   justify-content:space-around;
-  gap:30px;
+  gap:30px; */
   margin-right: 5px;
 
 }
@@ -39,6 +39,7 @@ nav.primary ul li{
   color: #406168;
   margin-right: 10px;
   font-size: 0.9rem;
+  width: fit-content;
 
 }
 
