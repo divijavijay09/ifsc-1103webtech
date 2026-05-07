@@ -19,26 +19,32 @@ header.primary {
   padding: 20px; /* Added back so header has height */
 }
 
-nav.primary ul{
-  padding: 0;
+nav.primary {
+  display: flex;
+  justify-content: center;
   margin: 20px 0;
-  text-align: center; /* Centering the text content */
+}
+nav.primary ul{
+  list-style-type: "☆";
+  padding: 0;
+  margin: 0;
+  text-align: left; 
+  list-style-position: outside; 
 }
 
 nav.primary ul li{
-  list-style-type:"☆";
-  list-style-position: inside; /* This brings the star into the center with the box */
   color: #406168;
-  font-size: 0.9rem;
   margin-bottom: 10px;
+  padding-left: 20px;
 }
 
 nav.primary ul li a{
-  background-color:#dde6e7;
+  background-color: #dde6e7;
   padding: 5px 15px;
-  transition: .5s;
   text-decoration: none;
-  display: inline-block; /* This makes the gray box shrink to the size of the words */
+  color: #406168;
+  transition: .5s;
+  display: inline-block;  
 }
 
 nav.primary ul li a:hover{
@@ -46,10 +52,14 @@ nav.primary ul li a:hover{
 }
 
 nav.primary ul li ul{
-  text-indent:2%;
+  text-indent: 0; 
   list-style: none;
-  padding: 0;
-  margin: 5px 0;
+  padding-left: 30px; 
+  margin-top: 10px;
+}
+
+nav.primary ul li ul li {
+  list-style-type: "☆";
 }
 
 nav a{
