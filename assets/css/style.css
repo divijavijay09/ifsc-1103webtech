@@ -19,11 +19,12 @@ header.primary {
   text-shadow:2px 2px #406168;
   padding: 20px;
 
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+
 }
 
-nav {
-  align-items: center;
-}
 
 nav.primary ul{
   display:block;
