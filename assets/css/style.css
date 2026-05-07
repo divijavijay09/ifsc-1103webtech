@@ -60,3 +60,8 @@ nav.primary ul li ul{
   list-style: none;
 }
 
+div.writing {
+  padding: 10px;
+  border: 3px;
+  border-color: #406168;
+}
