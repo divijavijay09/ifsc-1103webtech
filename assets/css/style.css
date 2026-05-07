@@ -7,6 +7,10 @@ body {
   margin:0;
   background-color: #F4FDFF;
 
+  display: flex;         
+  align-items: flex-start; 
+  gap: 40px;             
+  padding: 20px 50px;
 }
 
 main {
@@ -25,6 +29,11 @@ header.primary {
 
 }
 
+nav.primary {
+  flex-shrink: 0;   
+  width: auto;      
+}
+
 nav.primary ul{
   /* display:block;
   justify-content:space-around;
@@ -39,6 +48,7 @@ nav.primary ul li{
   list-style-type:"☆";
   color: #406168;
   margin-right: 10px;
+  margin-bottom: 10px;
   font-size: 0.9rem;
 }
 
@@ -68,4 +78,7 @@ div.writing {
   padding: 40px;      
   border: 1px solid #406168;
   box-shadow: 0 10px 20px #2a3a3d;
+
+  flex-grow: 1;     
+  margin: 0;
 }
