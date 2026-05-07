@@ -7,10 +7,10 @@ body {
   margin:0;
   background-color: #F4FDFF;
 
-  display: flex;         
-  align-items: flex-start; 
-  gap: 40px;             
-  padding: 20px 50px;    
+}
+
+main {
+  padding: 10px 200px;
 }
 
 header.primary {
@@ -23,11 +23,6 @@ header.primary {
   text-shadow:2px 2px #406168;
   padding: 20px;
 
-}
-
-nav.primary {
-  flex-shrink: 0;   
-  width: auto;      
 }
 
 nav.primary ul{
@@ -44,7 +39,7 @@ nav.primary ul li{
   list-style-type:"☆";
   color: #406168;
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   font-size: 0.9rem;
 }
 
@@ -69,10 +64,9 @@ nav.primary ul li ul{
 
 
 div.writing {
+  max-width: 800px;    
+  margin: 40px auto;  
   padding: 40px;      
   border: 1px solid #406168;
   box-shadow: 0 10px 20px #2a3a3d;
-
-  flex-grow: 1;     
-  margin: 0;
 }
