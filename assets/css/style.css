@@ -33,10 +33,10 @@ nav.primary {
 }
 
 nav.primary ul{
-  padding: 0;
-  margin-top: 0;
+  /* display:block;
+  justify-content:space-around;
+  gap:30px; */
   margin-right: 5px;
-  
 
 }
 
