@@ -30,13 +30,13 @@ nav.primary ul{
   justify-content:space-around;
   gap:30px;
   margin-right: 5px;
-  margin-bottom: 50px;
 
 }
 
 nav.primary ul li{
   list-style-type:"☆";
-  flex:1;
+  margin-bottom: 10px;
+  /* flex:1; */
   color: #406168;
   margin-right: 10px;
   font-size: 0.9rem;
