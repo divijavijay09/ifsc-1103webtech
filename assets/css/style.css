@@ -36,7 +36,6 @@ nav.primary ul{
 nav.primary ul li{
   list-style-type:"☆";
   flex:1;
-  content: "☆"; 
   color: #406168;
   margin-right: 10px;
   font-size: 0.9rem;
@@ -45,17 +44,16 @@ nav.primary ul li{
 
 nav.primary ul li a{
   background-color:#c5d0d2;
-
   padding: 5px 7.5px;
   border: 0px ;
   border-radius: 0px ;
   transition: .5s;
-  display:block;
+  display: inline-block;
   text-decoration: none;
 }
 
 nav.primary ul li a:hover{
-   background-color:#F4FDFF;
+  background-color:#F4FDFF;
 }
 
 nav.primary ul li ul{
