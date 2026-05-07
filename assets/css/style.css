@@ -4,13 +4,11 @@ background-color: #8E9394;
 background-color: #F4FDFF; */
 
 body {
-  font-family: "Delius", sans-serif;
+  font-family: "Me", sans-serif;
   margin:0;
   background-color: #F4FDFF;
-  padding: 20px;
 
 }
-
 
 header.primary {
   text-align: center;
@@ -20,12 +18,15 @@ header.primary {
   color:#ffffff;
   text-align:center;
   text-shadow:2px 2px #406168;
+  padding: 20px;
+
 }
 
 nav.primary ul{
-  padding: 0;
-  margin: 20px 0;
-  text-align: center;
+  display:block;
+  justify-content:space-around;
+  gap:30px;
+  margin-right: 5px;
   
 }
 
@@ -35,36 +36,28 @@ nav.primary ul li{
   color: #406168;
   margin-right: 10px;
   font-size: 0.9rem;
-  margin-bottom: 10px
   
 }
 
 nav.primary ul li a{
-  background-color:#dde6e7;
-  padding: 5px 15px;
+  background-color:#c5d0d2;
+  
+  padding: 5px 7.5px;
+  border: 0px ;
+  border-radius: 0px ;
   transition: .5s;
   display:block;
   text-decoration: none;
-  display: inline-block;
 }
 
 nav.primary ul li a:hover{
-  background-color:#F4FDFF;
+   background-color:#F4FDFF;
 }
 
 nav.primary ul li ul{
   text-indent:2%;
   list-style: none;
-  padding: 0;
-  margin: 5px 0;
 }
-
-nav a{
-  text-decoration: none;
-  color:#406168;
-
-}
-
 
 div.writing {
   max-width: 800px;    
