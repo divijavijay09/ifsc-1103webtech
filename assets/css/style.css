@@ -6,15 +6,13 @@ body {
   font-family: "Delius", sans-serif;
   margin:0;
   background-color: #F4FDFF;
-
-  display: flex;         
-  align-items: flex-start; 
-  gap: 40px;             
-  padding: 20px 50px;
 }
 
 main {
-  padding: 10px 200px;
+  display: flex;         
+  align-items: flex-start; 
+  gap: 40px;             
+  padding: 20px 50px;    
 }
 
 header.primary {
@@ -73,7 +71,6 @@ nav.primary ul li ul{
 
 
 div.writing {
-  max-width: 800px;    
   margin: 40px auto;  
   padding: 40px;      
   border: 1px solid #406168;
