@@ -1,13 +1,16 @@
-
 /* background-color: #85BCC7;
 background-color: #8E9394;
 background-color: #F4FDFF; */
 
 body {
-  font-family: "Me", sans-serif;
+  font-family: "Delius", sans-serif;
   margin:0;
   background-color: #F4FDFF;
 
+}
+
+main {
+  padding: 10px 200px;
 }
 
 header.primary {
@@ -27,21 +30,22 @@ nav.primary ul{
   justify-content:space-around;
   gap:30px;
   margin-right: 5px;
-  
+
 }
 
 nav.primary ul li{
   list-style-type:"☆";
   flex:1;
+  content: "☆"; 
   color: #406168;
   margin-right: 10px;
   font-size: 0.9rem;
-  
+
 }
 
 nav.primary ul li a{
   background-color:#c5d0d2;
-  
+
   padding: 5px 7.5px;
   border: 0px ;
   border-radius: 0px ;
@@ -58,6 +62,7 @@ nav.primary ul li ul{
   text-indent:2%;
   list-style: none;
 }
+
 
 div.writing {
   max-width: 800px;    
