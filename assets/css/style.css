@@ -36,7 +36,7 @@ nav.primary ul{
 nav.primary ul li{
   list-style-type:"☆";
   margin-bottom: 10px;
-  /* flex:1; */
+  flex:1;
   color: #406168;
   margin-right: 10px;
   font-size: 0.9rem;
@@ -50,6 +50,7 @@ nav.primary ul li a{
   border-radius: 0px ;
   transition: .5s;
   display: inline-block;
+  margin-bottom: 10px;
   text-decoration: none;
 }
 
