@@ -26,21 +26,20 @@ header.primary {
 }
 
 nav.primary ul{
-  /* display:block;
+  display:block;
   justify-content:space-around;
-  gap:30px; */
+  gap:30px;
   margin-right: 5px;
 
 }
 
 nav.primary ul li{
-  display: block;
-  width: fit-content;
   list-style-type:"☆";
+  flex:1;
   color: #406168;
   margin-right: 10px;
-  margin-bottom: 12px;
   font-size: 0.9rem;
+
 }
 
 nav.primary ul li a{
