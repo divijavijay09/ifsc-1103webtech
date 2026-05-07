@@ -4,10 +4,14 @@ background-color: #8E9394;
 background-color: #F4FDFF; */
 
 body {
-  font-family: "Me", sans-serif;
+  font-family: "Delius", sans-serif;
   margin:0;
   background-color: #F4FDFF;
 
+}
+
+main {
+  padding: 10px 200px;
 }
 
 header.primary {
@@ -61,10 +65,10 @@ nav.primary ul li ul{
 }
 
 div.writing {
-  padding: 20px 40px;
+  padding: 50px 100px;
   border: 3px;
   border-color: #406168;
-  box-shadow: 0 10px 20px #87506E;
+  box-shadow: 0 10px 20px #1a292d;
   padding:10px;
   font-size: .8rem;
   flex:1;
