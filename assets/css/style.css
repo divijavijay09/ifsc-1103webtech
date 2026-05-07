@@ -7,10 +7,6 @@ body {
   margin:0;
   background-color: #F4FDFF;
 
-  display: flex;
-  flex-direction: column; 
-  align-items: center;
-
 }
 
 header.primary {
@@ -29,11 +25,8 @@ header.primary {
 
 nav.primary ul{
   display:block;
-  justify-content:space-around;
-  gap:30px;
-  /* margin-right: 5px; */
   width: max-content;
-
+  margin: 20px auto;
 }
 
 nav.primary ul li{
