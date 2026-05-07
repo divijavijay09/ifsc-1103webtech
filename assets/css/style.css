@@ -18,15 +18,16 @@ header.primary {
   text-align:center;
   text-shadow:2px 2px #406168;
   padding: 20px;
-  width: 100%; 
-  box-sizing: border-box;
-}
 
+}
 
 nav.primary ul{
   display:block;
+  justify-content:space-around;
+  gap:30px;
+  margin-right: 5px;
   width: max-content;
-  margin: 20px auto;
+
 }
 
 nav.primary ul li{
