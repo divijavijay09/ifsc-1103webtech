@@ -33,10 +33,10 @@ nav.primary {
 }
 
 nav.primary ul{
-  /* display:block;
-  justify-content:space-around;
-  gap:30px; */
+  padding: 0;
+  margin-top: 0;
   margin-right: 5px;
+  
 
 }
 
@@ -71,7 +71,6 @@ nav.primary ul li ul{
 
 
 div.writing {
-  margin: 40px auto;  
   padding: 40px;      
   border: 1px solid #406168;
   box-shadow: 0 10px 20px #2a3a3d;
