@@ -49,6 +49,7 @@ nav.primary ul li a{
   display: block;
   text-decoration: none;
   white-space: nowrap;
+  color: #2a3a3d;
 }
 
 nav.primary ul li a:hover{
@@ -68,6 +69,7 @@ div.writing {
   padding: 40px;      
   border: 1px solid #406168;
   box-shadow: 0 10px 20px #2a3a3d;
+  color: #2a3a3d;
 }
 
 div.writing h2{
