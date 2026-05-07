@@ -37,7 +37,7 @@ nav.primary ul{
 nav.primary ul li{
   list-style-type:"☆";
   flex:1;
-  content: "☆☆☆☆☆"; 
+  content: "☆"; 
   color: #406168;
   margin-right: 10px;
   font-size: 0.9rem;
